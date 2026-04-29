@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="E-Portfolio of Riza Mae Rueda — BSEd Social Studies student at Samar State University. Showcasing learning, reflections, and experiences in Technology for Teaching and Learning." />
+  <title>Riza Mae Rueda | E-Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Phosphor Icons (lightweight SVG icon lib) -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ── PROGRESS BAR ── -->
+  <div id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+  <!-- ── NAVBAR ── -->
+  <header id="navbar" role="banner">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Back to top">Riza<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links" role="list">
+          <li><a href="#about"><i class="ph ph-user" aria-hidden="true"></i> About</a></li>
+          <li><a href="#skills"><i class="ph ph-star" aria-hidden="true"></i> Skills</a></li>
+          <li><a href="#activities"><i class="ph ph-briefcase" aria-hidden="true"></i> Activities</a></li>
+          <li><a href="#reflections"><i class="ph ph-notebook" aria-hidden="true"></i> Reflections</a></li>
+          <li><a href="#contact"><i class="ph ph-envelope-simple" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+      <a href="#about"><i class="ph ph-user" aria-hidden="true"></i> About</a>
+      <a href="#skills"><i class="ph ph-star" aria-hidden="true"></i> Skills</a>
+      <a href="#activities"><i class="ph ph-briefcase" aria-hidden="true"></i> Activities</a>
+      <a href="#reflections"><i class="ph ph-notebook" aria-hidden="true"></i> Reflections</a>
+      <a href="#contact"><i class="ph ph-envelope-simple" aria-hidden="true"></i> Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-bg-lines" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-inner">
+
+          <!-- Photo -->
+          <div class="hero-photo-wrap reveal-right">
+            <div class="hero-photo-frame">
+              <img src="assets/images/profile.jpg" alt="Riza Mae Rueda — profile photo" />
+            </div>
+            <div class="hero-stamp" aria-hidden="true">2026 (Present)</div>
+          </div>
+
+          <!-- Content -->
+          <div class="hero-content">
+            <span class="hero-tag reveal" aria-label="E-Portfolio label">✦ E-Portfolio ✦</span>
+            <h1 class="hero-name reveal">
+              Riza Mae<br /><span>Rueda</span>
+            </h1>
+            <p class="hero-subtitle reveal">
+              <span id="typewriter" aria-live="polite"></span><span class="cursor" aria-hidden="true"></span>
+            </p>
+            <div class="hero-cta reveal">
+              <a href="#about" class="btn" id="hero-about-btn"><i class="ph ph-arrow-down" aria-hidden="true"></i> Know More</a>
+              <a href="#contact" class="btn btn-ghost" id="hero-contact-btn"><i class="ph ph-paper-plane-tilt" aria-hidden="true"></i> Get In Touch</a>
+            </div>
+            <div class="hero-scroll reveal" aria-hidden="true">
+              <div class="arrow"></div>
+              <span>Scroll</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <span class="section-label reveal">// 01 — About</span>
+        <h2 class="section-title reveal" id="about-title">Who Am I?</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+
+        <div class="about-grid">
+          <div class="about-text reveal-left">
+            <p>
+              Hi! I am <strong>Riza Mae Rueda</strong>, a second-year college student taking up
+              <strong>Bachelor of Secondary Education major in Social Studies</strong> at
+              <strong>Samar State University</strong>. This e-portfolio showcases my learning,
+              experiences, and reflections in the subject
+              <em>Technology for Teaching and Learning</em>, where I explore how technology
+              enhances teaching and learning in the modern classroom.
+            </p>
+            <p>
+              I am from Brgy. Bunu-anan, Catbalogan City. I am passionate about discovering
+              new experiences that help me learn and grow as a person. I aspire to become a
+              teacher someday because I enjoy learning new things and sharing knowledge with
+              others, especially when it helps people grow.
+            </p>
+            <p>
+              I am a friendly and funny person who enjoys making people laugh and creating a
+              positive environment for those around me. I love night hangouts with friends,
+              listening to music, watching movies, and spending time with the people who
+              matter most to me.
+            </p>
+          </div>
+
+          <div class="about-facts reveal-right">
+            <div class="fact-item" data-label="Program">
+              <p><i class="ph ph-books" aria-hidden="true"></i> BSEd — Social Studies</p>
+            </div>
+            <div class="fact-item" data-label="School">
+              <p><i class="ph ph-buildings" aria-hidden="true"></i> Samar State University</p>
+            </div>
+            <div class="fact-item" data-label="Year Level">
+              <p><i class="ph ph-student" aria-hidden="true"></i> 2nd Year College Student</p>
+            </div>
+            <div class="fact-item" data-label="Location">
+              <p><i class="ph ph-map-pin" aria-hidden="true"></i> Brgy. Bunu-anan, Catbalogan City</p>
+            </div>
+            <div class="fact-item" data-label="Aspiration">
+              <p><i class="ph ph-chalkboard-teacher" aria-hidden="true"></i> Future Educator</p>
+            </div>
+            <div class="fact-item" data-label="Hobbies">
+              <p><i class="ph ph-music-notes" aria-hidden="true"></i> Music · Movies · Night Hangouts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <div class="container">
+        <span class="section-label reveal">// 02 — Skills</span>
+        <h2 class="section-title reveal" id="skills-title">My Competencies</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card reveal" aria-label="Communication Skills">
+            <div class="skill-icon-box" aria-hidden="true"><i class="ph ph-chat-circle-text"></i></div>
+            <div class="skill-number" aria-hidden="true">01</div>
+            <h3 class="skill-name">Communication Skills</h3>
+            <p class="skill-desc">
+              I am able to express my ideas clearly and effectively in both verbal
+              and written forms, making communication a core strength.
+            </p>
+          </article>
+
+          <article class="skill-card reveal" aria-label="Teamwork">
+            <div class="skill-icon-box" aria-hidden="true"><i class="ph ph-users-three"></i></div>
+            <div class="skill-number" aria-hidden="true">02</div>
+            <h3 class="skill-name">Teamwork</h3>
+            <p class="skill-desc">
+              I work well with classmates and contribute actively in group tasks,
+              fostering cooperation and shared success.
+            </p>
+          </article>
+
+          <article class="skill-card reveal" aria-label="Basic Computer Skills">
+            <div class="skill-icon-box" aria-hidden="true"><i class="ph ph-monitor"></i></div>
+            <div class="skill-number" aria-hidden="true">03</div>
+            <h3 class="skill-name">Basic Computer Skills</h3>
+            <p class="skill-desc">
+              I can use digital tools and applications that are helpful for
+              learning and completing ICT-related tasks effectively.
+            </p>
+          </article>
+
+          <article class="skill-card reveal" aria-label="Adaptability">
+            <div class="skill-icon-box" aria-hidden="true"><i class="ph ph-arrows-out"></i></div>
+            <div class="skill-number" aria-hidden="true">04</div>
+            <h3 class="skill-name">Adaptability</h3>
+            <p class="skill-desc">
+              I can adjust to new situations, tasks, and challenges that come
+              my way in school and beyond with ease and resilience.
+            </p>
+          </article>
+
+          <article class="skill-card reveal" aria-label="Problem-Solving Skills">
+            <div class="skill-icon-box" aria-hidden="true"><i class="ph ph-lightbulb"></i></div>
+            <div class="skill-number" aria-hidden="true">05</div>
+            <h3 class="skill-name">Problem-Solving</h3>
+            <p class="skill-desc">
+              I analyze situations carefully and think of possible solutions
+              when I encounter difficulties in tasks or activities.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ACTIVITIES ── -->
+    <section id="activities" class="section" aria-labelledby="activities-title">
+      <div class="container">
+        <span class="section-label reveal">// 03 — Experience</span>
+        <h2 class="section-title reveal" id="activities-title">Organization Activities</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+
+        <p class="reveal" style="color:var(--cream-dim);font-size:0.92rem;margin-bottom:2rem;max-width:640px;">
+          As part of our Social Studies organization activities, I participated in different
+          meaningful experiences that helped me develop my skills and understanding,
+          especially in teaching and social responsibility.
+        </p>
+
+        <div class="activities-list">
+
+          <article class="activity-card reveal" aria-label="Community-based Project">
+            <div class="activity-header">
+              <div class="activity-icon" aria-hidden="true"><i class="ph ph-tree"></i></div>
+              <div>
+                <span class="activity-tag">01 — Community</span>
+                <h3 class="activity-title">Community-Based Project</h3>
+              </div>
+            </div>
+            <div class="activity-body">
+              <div class="activity-layout">
+                <figure class="activity-img-wrap">
+                  <img src="assets/images/activity-community.webp" alt="Community-Based Project" loading="lazy" />
+                </figure>
+                <div class="activity-text">
+                  <p>
+                    We went to a local community to promote awareness about environmental
+                    responsibility. Through this activity, I learned the importance of taking
+                    action in protecting the environment. We also used technology in documenting
+                    our activity — taking photos and organizing reports — which helped us present
+                    our output clearly and effectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="activity-card reveal" aria-label="Lesson Plan Seminar">
+            <div class="activity-header">
+              <div class="activity-icon" aria-hidden="true"><i class="ph ph-presentation-chart"></i></div>
+              <div>
+                <span class="activity-tag">02 — Seminar</span>
+                <h3 class="activity-title">Lesson Plan Seminar</h3>
+              </div>
+            </div>
+            <div class="activity-body">
+              <div class="activity-layout">
+                <figure class="activity-img-wrap">
+                  <img src="assets/images/activity-seminar.webp" alt="Lesson Plan Seminar" loading="lazy" />
+                </figure>
+                <div class="activity-text">
+                  <p>
+                    A Social Studies Seminar focused on Lesson Planning where we were trained
+                    on how to create effective lesson plans for teaching. I gained new knowledge
+                    on how to structure lessons properly and make them more engaging for learners.
+                    Technology was also used during the seminar through presentations and digital
+                    materials, making the discussion more organized and easier to understand.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="activity-card reveal" aria-label="Demo Teaching">
+            <div class="activity-header">
+              <div class="activity-icon" aria-hidden="true"><i class="ph ph-chalkboard-teacher"></i></div>
+              <div>
+                <span class="activity-tag">03 — Teaching</span>
+                <h3 class="activity-title">Demo Teaching Project</h3>
+              </div>
+            </div>
+            <div class="activity-body">
+              <div class="activity-layout">
+                <figure class="activity-img-wrap">
+                  <img src="assets/images/activity-demo.webp" alt="Demo Teaching Project" loading="lazy" />
+                </figure>
+                <div class="activity-text">
+                  <p>
+                    We conducted a Demo Teaching Project where we applied what we learned by
+                    simulating a real teaching environment. This activity helped me improve my
+                    confidence and teaching skills. We also integrated technology through the
+                    use of presentation slides and digital tools, making our lesson more
+                    interactive and engaging for the audience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── REFLECTIONS ── -->
+    <section id="reflections" class="section" aria-labelledby="reflections-title">
+      <div class="container">
+        <span class="section-label reveal">// 04 — Reflections</span>
+        <h2 class="section-title reveal" id="reflections-title">My Learning Journey</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+
+        <p class="reveal" style="color:var(--cream-dim);font-size:0.92rem;margin-bottom:2rem;max-width:640px;">
+          Reflections on integrating traditional and digital teaching and learning — the
+          insights, realizations, and lessons I carry forward as a future educator.
+        </p>
+
+        <div class="reflections-tabs reveal" role="list">
+
+          <!-- Reflection 1 -->
+          <div class="reflection-item" role="listitem">
+            <button class="reflection-toggle" aria-expanded="false" id="refl-btn-1" aria-controls="refl-body-1">
+              <span class="reflection-num"><i class="ph ph-chalkboard" aria-hidden="true"></i></span>
+              Non-Digital & Conventional Instructional Materials
+              <span class="reflection-arrow" aria-hidden="true">▶</span>
+            </button>
+            <div class="reflection-body" id="refl-body-1" role="region" aria-labelledby="refl-btn-1">
+              <div class="reflection-body-inner">
+                <div class="refl-layout">
+                  <figure class="refl-img-wrap">
+                    <img src="assets/images/refl-non-digital.jpg" alt="Non-digital instructional materials" loading="lazy" />
+                    <figcaption>Non-Digital Instructional Materials</figcaption>
+                  </figure>
+                  <div class="refl-text">
+                    <p>
+                      Learning about non-digital or conventional instructional materials made me realize
+                      how important these tools are in teaching. At first, I thought that effective
+                      teaching always requires technology, but I learned that simple materials can also
+                      make a big impact on students' understanding.
+                    </p>
+                    <br />
+                    <p>
+                      Through this topic, I understood that materials like chalkboards, flashcards, charts,
+                      and handmade visuals can help present lessons in a clearer and more concrete way,
+                      especially in Social Studies. These materials allow students to better visualize
+                      concepts like history and geography.
+                    </p>
+                    <br />
+                    <p>
+                      I also realized that conventional instructional materials are practical and accessible,
+                      especially in situations where technology is limited. This made me appreciate their
+                      value even more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reflection 2 -->
+          <div class="reflection-item" role="listitem">
+            <button class="reflection-toggle" aria-expanded="false" id="refl-btn-2" aria-controls="refl-body-2">
+              <span class="reflection-num"><i class="ph ph-desktop-tower" aria-hidden="true"></i></span>
+              Select and Use ICT Tools for Teaching & Learning
+              <span class="reflection-arrow" aria-hidden="true">▶</span>
+            </button>
+            <div class="reflection-body" id="refl-body-2" role="region" aria-labelledby="refl-btn-2">
+              <div class="reflection-body-inner">
+                <div class="refl-layout">
+                  <figure class="refl-img-wrap">
+                    <img src="assets/images/refl-ict-tools.jpg" alt="ICT tools for teaching and learning" loading="lazy" />
+                    <figcaption>ICT Tools for Teaching &amp; Learning</figcaption>
+                  </figure>
+                  <div class="refl-text">
+                    <p>
+                      As I learned about selecting and using ICT tools, I realized that technology plays
+                      an important role in modern education. However, I also understood that using
+                      technology is not just about knowing different tools, but about using them with purpose.
+                    </p>
+                    <br />
+                    <p>
+                      In this topic, I became more aware of how tools like Google Classroom, Canva, and
+                      Google Docs can support teaching and learning, making lessons more interactive,
+                      organized, and engaging for students.
+                    </p>
+                    <br />
+                    <p>
+                      At the same time, I learned that not all ICT tools are effective in every situation.
+                      It is important to choose the right tool based on the lesson objectives and the
+                      needs of the students.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reflection 3 -->
+          <div class="reflection-item" role="listitem">
+            <button class="reflection-toggle" aria-expanded="false" id="refl-btn-3" aria-controls="refl-body-3">
+              <span class="reflection-num"><i class="ph ph-folder-open" aria-hidden="true"></i></span>
+              Creating an E-Portfolio as a Technology Tool
+              <span class="reflection-arrow" aria-hidden="true">▶</span>
+            </button>
+            <div class="reflection-body" id="refl-body-3" role="region" aria-labelledby="refl-btn-3">
+              <div class="reflection-body-inner">
+                <div class="refl-layout">
+                  <figure class="refl-img-wrap">
+                    <img src="assets/images/refl-eportfolio.jpg" alt="Creating an E-Portfolio" loading="lazy" />
+                    <figcaption>E-Portfolio as a Technology Tool</figcaption>
+                  </figure>
+                  <div class="refl-text">
+                    <p>
+                      Creating my e-portfolio became an important part of my learning journey. Through
+                      this process, I realized that an e-portfolio is not just a collection of outputs,
+                      but a reflection of my growth and development as a student.
+                    </p>
+                    <br />
+                    <p>
+                      As I worked on my e-portfolio, I had the chance to review my outputs and think
+                      about what I have learned from each task. It helped me see my progress and
+                      understand my strengths and areas that I still need to improve.
+                    </p>
+                    <br />
+                    <p>
+                      I also learned that e-portfolios can be used as an effective assessment tool.
+                      It allows students to show not only their work but also their learning process.
+                      This experience made me realize the importance of reflection in education.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reflection 4 -->
+          <div class="reflection-item" role="listitem">
+            <button class="reflection-toggle" aria-expanded="false" id="refl-btn-4" aria-controls="refl-body-4">
+              <span class="reflection-num"><i class="ph ph-users" aria-hidden="true"></i></span>
+              Technology Collaborative Tools in the Digital World
+              <span class="reflection-arrow" aria-hidden="true">▶</span>
+            </button>
+            <div class="reflection-body" id="refl-body-4" role="region" aria-labelledby="refl-btn-4">
+              <div class="reflection-body-inner">
+                <div class="refl-layout">
+                  <figure class="refl-img-wrap">
+                    <img src="assets/images/refl-collaborative.jpg" alt="Technology collaborative tools" loading="lazy" />
+                    <figcaption>Technology Collaborative Tools</figcaption>
+                  </figure>
+                  <div class="refl-text">
+                    <p>
+                      In learning about collaborative tools, I realized how technology can support
+                      teamwork and communication. Tools like Google Docs and online platforms make
+                      it easier to work with others, even if we are not physically together.
+                    </p>
+                    <br />
+                    <p>
+                      This topic helped me understand that collaboration becomes more effective when
+                      supported by the right tools. It allows sharing of ideas, real-time editing,
+                      and better communication among group members.
+                    </p>
+                    <br />
+                    <p>
+                      However, I also learned that successful collaboration does not depend on
+                      technology alone. It also requires cooperation, responsibility, and respect
+                      among group members.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reflection 5 -->
+          <div class="reflection-item" role="listitem">
+            <button class="reflection-toggle" aria-expanded="false" id="refl-btn-5" aria-controls="refl-body-5">
+              <span class="reflection-num"><i class="ph ph-globe" aria-hidden="true"></i></span>
+              Digital Literacy Skills in the 21st Century
+              <span class="reflection-arrow" aria-hidden="true">▶</span>
+            </button>
+            <div class="reflection-body" id="refl-body-5" role="region" aria-labelledby="refl-btn-5">
+              <div class="reflection-body-inner">
+                <div class="refl-layout">
+                  <figure class="refl-img-wrap">
+                    <img src="assets/images/refl-digital-literacy.jpg" alt="Digital literacy in the 21st century" loading="lazy" />
+                    <figcaption>Digital Literacy Skills</figcaption>
+                  </figure>
+                  <div class="refl-text">
+                    <p>
+                      My learning about digital literacy made me realize how important it is in
+                      today's world. Digital literacy is not only about using technology but also
+                      about using it responsibly and effectively.
+                    </p>
+                    <br />
+                    <p>
+                      Through this topic, I learned the importance of evaluating information,
+                      identifying reliable sources, and being responsible in online communication.
+                      These skills are necessary because of the large amount of information
+                      available online.
+                    </p>
+                    <br />
+                    <p>
+                      I also understood that digital literacy includes being aware of ethical
+                      issues such as respecting intellectual property and protecting personal
+                      information. This learning strengthened my understanding that digital
+                      literacy is an essential skill that students need in the 21st century.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <span class="section-label reveal">// 05 — Contact</span>
+        <h2 class="section-title reveal" id="contact-title">Let's Stay Connected</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+
+        <p class="reveal" style="color:var(--cream-dim);font-size:0.92rem;margin-bottom:2rem;max-width:540px;">
+          Feel free to reach out — let's stay connected beyond this portfolio.
+        </p>
+
+        <div class="contact-card reveal">
+          <div class="contact-item">
+            <div class="contact-icon-box" aria-hidden="true">
+              <i class="ph ph-envelope-simple"></i>
+            </div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">
+                <a href="mailto:rizamaerueda90@gmail.com" id="contact-email-link">rizamaerueda90@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-box" aria-hidden="true">
+              <i class="ph ph-map-pin"></i>
+            </div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Brgy. Bunu-anan, Catbalogan City</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon-box" aria-hidden="true">
+              <i class="ph ph-graduation-cap"></i>
+            </div>
+            <div>
+              <p class="contact-label">School</p>
+              <p class="contact-value">Samar State University</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-icons" aria-hidden="true">
+        <i class="ph ph-graduation-cap"></i>
+        <i class="ph ph-book-open"></i>
+        <i class="ph ph-chalkboard-teacher"></i>
+        <i class="ph ph-desktop-tower"></i>
+        <i class="ph ph-globe"></i>
+      </div>
+      <p>
+        &copy; 2026 <span>Riza Mae Rueda</span> &nbsp;·&nbsp;
+        BSEd Social Studies &nbsp;·&nbsp;
+        Samar State University
+      </p>
+      <p style="margin-top:0.5rem;">
+        <i class="ph ph-notebook" aria-hidden="true"></i>
+        Technology for Teaching and Learning — E-Portfolio
+      </p>
+    </div>
+  </footer>
+
+  <!-- ── BACK TO TOP ── -->
+  <button id="back-top" aria-label="Scroll back to top" title="Back to top">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
